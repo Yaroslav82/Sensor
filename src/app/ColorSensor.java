@@ -10,6 +10,6 @@ public class ColorSensor extends Sensor {
     @Override
     public void update() {
         System.out.println("Color: "
-                + Indicator.indicateColor());
+                + Indicator.indicateColor(substance.getState()));
     }
 }
