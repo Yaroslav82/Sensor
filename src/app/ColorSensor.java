@@ -4,7 +4,7 @@ public class ColorSensor extends Sensor {
 
     public ColorSensor(Substance substance) {
         this.substance = substance;
-
+        this.substance.attach(this);
     }
 
     @Override
