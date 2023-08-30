@@ -5,6 +5,8 @@ public class Main {
     public static void main(String[] args) {
 
         Substance substance = new Substance();
+        new WeightSensor(substance);
+        new ColorSensor(substance);
 
         System.out.println("Substance temperature +25 ");
         substance.setState(25);
