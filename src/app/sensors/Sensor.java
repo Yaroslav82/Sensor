@@ -1,4 +1,6 @@
-package app;
+package app.sensors;
+
+import app.entities.Substance;
 
 public abstract class Sensor {
 

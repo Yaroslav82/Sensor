@@ -1,4 +1,6 @@
-package app;
+package app.entities;
+
+import app.sensors.Sensor;
 
 import java.util.ArrayList;
 import java.util.List;
